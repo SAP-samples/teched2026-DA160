@@ -7,8 +7,6 @@ You use labels throughout the exercises to tell reading from doing:
 - **Hands-on:** Steps you perform in the tenant on your laptop.
 - **Read-only:** Background so load, search, and match make sense. The instructor covers this in 2–3 minutes. Do not read it during the timed lab.
 
-You do **not** need Postman for this workshop.
-
 ## Step 1 — Sign in to Hub (5 min)
 
 **Hands-on**
