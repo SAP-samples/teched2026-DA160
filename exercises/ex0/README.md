@@ -44,9 +44,7 @@ After this overview you can:
 - Recognize the cost of scattered, duplicated data on the business and on customers
 - Explain how **Reltio Multidomain MDM** creates one trusted profile for every customer, supplier, and product
 - Describe how **Reltio Data Cloud** unifies, governs, secures, and delivers that data at enterprise scale
-- Explain why AI needs connected business context — not just clean data — and how **context intelligence** delivers it
 - Describe how **Reltio AgentFlow** and **Reltio MCP Server** bring governed AI agents into operations
-- Distinguish **Reltio Intelligent 360™** from Reltio Multidomain MDM and Reltio Data Cloud, and name the business value it adds
 
 ## The problem
 
@@ -74,7 +72,7 @@ Most organizations can see pieces of this in individual applications. Few have t
 
 Figures used in the Reltio Basics training:
 
-- Average cost of poor data quality: **$13.1M per year** per organization ([Gartner](https://www.gartner.com/smarterwithgartner/how-to-improve-your-data-quality); also summarized in [Segment](https://segment.com/blog/cost-of-poor-quality-data/))
+- Average cost of poor data quality: **$13.1M per year** per organization ([Gartner](https://www.gartner.com/smarterwithgartner/how-to-improve-your-data-quality))
 - **94%** of organizations suspect their own customer and prospect data is inaccurate
 - Duplication rates of **10–30%** are common without a data quality program
 
@@ -87,38 +85,19 @@ The platform is one connected stack, not five products you stitch together yours
 ```text
 Reltio AgentFlow          governed AI agents + Reltio MCP Server
         │
-Context intelligence      semantics, business rules, richer relationships
-        │
 Reltio Intelligent 360    relationships, interactions, grouping, segments
         │
 Reltio Multidomain MDM    match, merge, cleanse, enrich → trusted profiles
-        │
-Reltio Data Cloud         unify, govern, secure, and deliver at enterprise scale
 ```
 
-- **Reltio Data Cloud** is the cloud-native data unification platform: how data gets in, how it is protected, and how it gets used.
 - **Reltio Multidomain MDM** and **Reltio Intelligent 360** are the two core products that run on that platform.
 - **Reltio AgentFlow** is the agentic layer on the same foundation. **Reltio MCP Server** is the open connection point for your own agents; it is included with Reltio Data Cloud.
-
-Analogy used in the training:
-
-- Reltio Data Cloud = the neighborhood (where everything runs, connects, and scales)
-- Reltio Multidomain MDM = the foundation (clean, verified records)
-- Reltio Intelligent 360 = the smart home (the foundation plus connected context so the business can decide what to do next)
 
 ## Reltio Multidomain MDM
 
 **Reltio Multidomain Master Data Management** (Reltio Multidomain MDM) continuously unifies, cleanses, and enriches data from source systems. It resolves duplicates and builds **one trusted profile** — a trusted data foundation — for every customer, supplier, product, or location, in real time.
 
 That profile is what operational systems, analytics, and AI agents should consume. If the foundation is shaky, everything built on it is shaky.
-
-### Proof point from the training
-
-**IHG Hotels & Resorts** (6,700+ hotels, 145 million loyalty members) had guest data scattered across three systems. After implementing Reltio they reported:
-
-- 34% reduction in duplicate profiles
-- 90–95% of performance issues resolved
-- 1.5 million messages processed daily across sources
 
 ## Reltio Data Cloud
 
@@ -154,14 +133,6 @@ Once data is unified, it has to stay trustworthy:
 
 Machine learning inspects incoming data for anomalies and drift. Interactive dashboards track completeness and uniqueness, with drill-down to where an issue occurred. Cleansing, standardization, and verification (including address and email formatting) run through built-in enrichment integrations so downstream systems receive higher-quality data with less manual effort.
 
-### Enterprise-grade by default
-
-Because this platform sits in business-critical paths, security and resilience are built in:
-
-- SOC 1 and SOC 2 Type II, HITRUST CSF alignment, HIPAA-ready environments, multi-region certification, regular penetration testing
-- Multiple availability zones with automatic failover
-- Recovery time and recovery point objectives under 24 hours
-
 ### Faster time to value: velocity packs
 
 **Velocity packs** are pre-configured, industry-specific packages: data model, relationships, match rules, reference data, and UI configuration from implementation best practices. You start from an industry kit and tailor it, instead of designing the model from a blank tenant.
@@ -172,15 +143,12 @@ Clean, unified data is necessary. It is not automatically enough for reliable AI
 
 Two organizations can use the same AI model and get very different results. The difference is whether the business has **connected context** the model can use: entities, relationships, transactions, and business rules tied together. Without that, the model guesses at meaning. With it, the model can reason from a complete picture of the business.
 
-The Reltio Basics training frames the accuracy gap this way: enterprise AI without semantic context is often guessing; the same AI grounded in a semantic graph is far more reliable. That gap is why context intelligence exists.
-
 How the stack builds up to it:
 
 1. Entity resolution identifies and merges duplicates
 2. Reltio Multidomain MDM turns that into a trusted master view
 3. Reltio Intelligent 360 unifies relationships, transactions, and interactions into real-time 360° profiles
-4. Context intelligence adds semantics, business rules, and richer relationships so AI can reason across the business
-5. Reltio AgentFlow turns that context into governed action
+4. Reltio AgentFlow turns that context into governed action
 
 ## Reltio AgentFlow and Reltio MCP Server
 
@@ -202,12 +170,6 @@ Most customers start with prebuilt agents and add Reltio MCP Server as custom ag
 
 That is what makes it reasonable to scale agents into sensitive domains instead of leaving them in a sandbox.
 
-Payoff examples used in the training (illustrative outcomes, not a guarantee for this workshop tenant):
-
-- Estimated incremental FTE cost avoided: **>$1.3M**
-- Manual document processing time reduced by **75%**
-- Cycle time reduced from **2–3 weeks to minutes**
-
 ## Reltio Intelligent 360
 
 A clean record tells you **who or what** something is. That is necessary and often not sufficient. A service rep can have the correct customer record and still miss the recent purchase, the open ticket, or the preferred channel. The record is accurate; the situation is invisible.
@@ -222,14 +184,6 @@ A clean record tells you **who or what** something is. That is necessary and oft
 - **Derived attributes and segmentation** — churn-risk score, high-value segment, next-best action
 
 Together these turn a trusted record into a context-rich profile.
-
-### What it is not
-
-Be precise when someone maps this to a familiar category:
-
-- **More than general MDM** — it builds on dependable master data and adds the surrounding context layer
-- **Not only a customer data platform (CDP)** — it can support customer-experience use cases, but the scope spans products, suppliers, accounts, providers, and more, not just marketing audiences
-- **Not all of Reltio Data Cloud** — it runs inside that platform; it is one offering, not the entire platform
 
 ### Where it shows up
 
