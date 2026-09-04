@@ -1,4 +1,4 @@
-# Getting Started — The SAP Reltio platform and its components  (10 min)
+# Getting Started — The SAP Reltio platform (10 min)
 
 SAP TechEd 2026, Hands-On Workshop: **DA160 — Build Real-Time, Unified Data Products for Agentic AI with SAP Reltio**
 
