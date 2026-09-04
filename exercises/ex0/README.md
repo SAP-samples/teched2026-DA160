@@ -12,8 +12,8 @@ You use labels throughout the exercises to tell reading from doing:
 **Hands-on**
 
 1. Use **Google Chrome** (current version).
-2. Open the **Hub URL** the instructor gives you.
-3. Sign in with the credentials on your **desk card** (one tenant per laptop; two people share the screen).
+2. Open the **Hub URL** on your **desk card** (one tenant per laptop; two people share the screen).
+3. Sign in with the credentials on your **desk card**.
 
    - User ID: \
    - Password: \
