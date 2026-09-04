@@ -1,4 +1,4 @@
-# Exercise 1 — Load contacts with Console Data Loader (17 min)
+# Exercise 1 — Load contacts with Console Data Loader (20 min)
 
 SAP TechEd 2026, Hands-On Workshop: DA160
 
