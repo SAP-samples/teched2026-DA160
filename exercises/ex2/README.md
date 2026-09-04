@@ -1,42 +1,63 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 — Search in Hub (15 min)
 
-In this exercise, we will create...
+SAP TechEd 2026, Hands-On Workshop: DA160
 
-## Exercise 2.1 Sub Exercise 1 Description
+**Hands-on**
 
-After completing these steps you will have created...
+In this exercise you find the organizations (and contacts) in your tenant the way a steward does: quick filter first, then a precise advanced query. This workshop keeps **one** search challenge.
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+If Exercise 1 is still running, wait until the Data Loader job is completed before you search for the contacts you just loaded.
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+## How Hub Search is laid out
 
+The Search page has three areas:
 
+- **Left** — **Advanced Search** (query builder) and **Quick Filters** (entity type and attribute facets)
+- **Top** — current criteria, saved / recent searches, share, and actions such as load and export
+- **Center** — results as a table or a list, with the total profile count
 
-## Exercise 2.2 Sub Exercise 2 Description
+**Global search** looks across attribute values when you only have a keyword. **Quick Filters** limit by entity type. **Advanced Search** combines conditions (`equals`, `contains`, missing values, and more). Every attribute is indexed, so you can filter on what you see.
 
-After completing these steps you will have...
+## Exercise 2.1 — Open Search and filter to Organization
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
+1. In Hub, select **Search**.
+2. In **Quick Filters**, under **Entity Types**, select **Organization**.
+3. Confirm the result count changes. You are no longer looking at all types at once.
 
-```
+> [!NOTE]
+> The total count on Search includes all entity types until you filter. After you select **Organization**, the count should drop.
 
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+## Exercise 2.2 — Build one precise query
+
+Build **this** search. Do not skip filters.
+
+1. Keep entity type **Organization**.
+2. Open **Advanced Search** on the left panel.
+3. Add a condition: **Source System Name** `equals` **Finance**.
+4. Add a second condition (combine with **And**): **Name** `contains` **Lab**.
+5. Run the search.
+
+You should get a short list, not the whole tenant.
+
+> [!NOTE]
+> `equals` is an exact match (not case sensitive). `contains` finds the value as a substring inside the attribute.
+
+If **Finance** / **Lab** returns nothing on your tenant, tell a helper. The instructor will give a fallback (for example **Name** `contains` a string from `SAP_Org.csv` or from the organizations already on the tenant).
+
+## Exercise 2.3 — Read a profile
+
+1. Open one organization from the results.
+2. Note the **sources / crosswalks** on the profile (where the data came from). That lineage is what merge keeps when you unify duplicates in Exercise 3.
+3. Return to **Search**.
+
+**Optional:** If you have two minutes, switch the entity type quick filter to **Contact** (or **Individual**) and use global search with a last name from `SAP_Contact.csv` to prove your load from Exercise 1 is searchable.
 
 ## Summary
 
-You've now ...
+You can:
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+- Filter Search by entity type
+- Combine two attribute conditions in Advanced Search
+- Open a profile from results and see its sources
+
+Continue to [Exercise 3 — Match, merge, and Not a Match](../ex3/README.md).
