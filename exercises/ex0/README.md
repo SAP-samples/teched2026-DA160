@@ -171,7 +171,7 @@ Together these turn a trusted record into a context-rich profile.
 | Describe governed agents in operations | Reltio AgentFlow and Reltio MCP Server |
 | Distinguish 360 context from MDM and from the platform | Reltio Intelligent 360 |
 
-Every piece above is one connected platform. Continue to [Exercise 1 — Load contacts with Console Data Loader](../ex1/README.md).
+Every piece above is one connected platform. 
 
 -- 
 
@@ -202,6 +202,6 @@ You use labels throughout the exercises to tell reading from doing:
 > [!TIP]
 > If Hub asks you to pick a tenant, choose the tenant ID printed on the desk card.
 
-When you can see Search, go to [Exercise 1 — Load contacts with Console Data Loader](../ex1/README.md). The rest of this page is optional reading.
+When you can see Search, go to [Exercise 1 — Load contacts with Console Data Loader](../ex1/README.md).
 
 ---
