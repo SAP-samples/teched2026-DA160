@@ -21,7 +21,7 @@ You are not configuring match rules or survivorship in this workshop. You are do
 Human **Not a Match** outranks the engine. If you mark two profiles Not a Match, later attribute edits will not put that pair back on your queue.
 
 > [!TIP]
-> Do not merge on name alone. Look for a **killer attribute** — a conflict that proves two similar names are different people or companies (different legal entities, strongly different identifiers, father/son, and similar cases).
+> Do not merge on name alone. Look for a **critical attribute** — a conflict that proves two similar names are different people or companies (different legal entities, strongly different identifiers, father/son, and similar cases).
 
 ## Exercise 3.1 — Find potential matches
 
