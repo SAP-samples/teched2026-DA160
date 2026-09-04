@@ -1,37 +1,6 @@
-# Getting Started — Prepare your working environment (5 min)
+# Getting Started — The SAP Reltio platform and its components  (5 min)
 
 SAP TechEd 2026, Hands-On Workshop: **DA160 — Build Real-Time, Unified Data Products for Agentic AI with SAP Reltio**
-
-You use labels throughout the exercises to tell reading from doing:
-
-- **Hands-on:** Steps you perform in the tenant on your laptop.
-- **Read-only:** Background so load, search, and match make sense. The instructor covers this in 2–3 minutes. Do not read it during the timed lab.
-
-## Step 1 — Sign in to Hub (5 min)
-
-**Hands-on**
-
-1. Use **Google Chrome** (current version).
-2. Open the **Hub URL** on your **desk card** (one tenant per laptop; two people share the screen).
-3. Sign in with the credentials on your **desk card**.
-
-   - User ID: \
-   - Password: \
-
-4. Confirm you can see Hub **Search**. If you cannot, raise a hand before Exercise 1.
-5. Confirm the workshop data folder is available (the instructor announces the path). You need **`SAP_Contact.csv`** for Exercise 1. You also need **`Load_Mappings_Ops.xlsx`** as the mapping reference.
-
-> [!NOTE]
-> Replace the Hub URL and credentials with the values on your desk card. Do not share passwords with other desks.
-
-> [!TIP]
-> If Hub asks you to pick a tenant, choose the tenant ID printed on the desk card.
-
-When you can see Search, go to [Exercise 1 — Load contacts with Console Data Loader](../ex1/README.md). The rest of this page is optional reading.
-
----
-
-# Overview — The SAP Reltio platform and its components
 
 **Read-only** (instructor talk or pre-read)
 
@@ -203,3 +172,36 @@ Together these turn a trusted record into a context-rich profile.
 | Distinguish 360 context from MDM and from the platform | Reltio Intelligent 360 |
 
 Every piece above is one connected platform. Continue to [Exercise 1 — Load contacts with Console Data Loader](../ex1/README.md).
+
+-- 
+
+# Getting started with SAP Reltio
+
+You use labels throughout the exercises to tell reading from doing:
+
+- **Hands-on:** Steps you perform in the tenant on your laptop.
+- **Read-only:** Background so load, search, and match make sense. The instructor covers this in 2–3 minutes. Do not read it during the timed lab.
+
+## Step 1 — Sign in to Hub (5 min)
+
+**Hands-on**
+
+1. Use **Google Chrome** (current version).
+2. Open the **Hub URL** on your **desk card** (one tenant per laptop; two people share the screen).
+3. Sign in with the credentials on your **desk card**.
+
+   - User ID: \
+   - Password: \
+
+4. Confirm you can see Hub **Search**. If you cannot, raise a hand before Exercise 1.
+5. Confirm the workshop data folder is available (the instructor announces the path). You need **`SAP_Contact.csv`** for Exercise 1. You also need **`Load_Mappings_Ops.xlsx`** as the mapping reference.
+
+> [!NOTE]
+> Replace the Hub URL and credentials with the values on your desk card. Do not share passwords with other desks.
+
+> [!TIP]
+> If Hub asks you to pick a tenant, choose the tenant ID printed on the desk card.
+
+When you can see Search, go to [Exercise 1 — Load contacts with Console Data Loader](../ex1/README.md). The rest of this page is optional reading.
+
+---
