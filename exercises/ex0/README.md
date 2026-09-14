@@ -27,16 +27,6 @@ That shows up as:
 
 This is a trust problem. Master data management exists to close it.
 
-### Three kinds of data
-
-| Building block | What it is | Examples |
-|----------------|------------|----------|
-| **Entities** | People, organizations, places, and things | Customer, supplier, product, location |
-| **Relationships** | How entities connect | Contact who works at a company; product on an account |
-| **Interactions** | What actually happened | Purchase, service call, claim |
-
-Most organizations can see pieces of this in individual applications. Few have the full connected picture. That connected picture is what the platform is built to create.
-
 ### What poor data actually costs
 
 Figures used in the Reltio Basics training:
@@ -47,7 +37,9 @@ Figures used in the Reltio Basics training:
 
 Every duplicate is a place where a person — or an AI agent — decides from an incomplete picture.
 
-## How the pieces fit together
+## Reltio Data Cloud
+
+Reltio Data Cloud unifies, governs, secures, and delivers trusted data at enterprise scale. The capabilities below all sit on that platform.
 
 The platform is one connected stack, not five products you stitch together yourself.
 
@@ -68,9 +60,15 @@ Reltio Multidomain MDM    match, merge, cleanse, enrich → trusted profiles
 
 That profile is what operational systems, analytics, and AI agents should consume. If the foundation is shaky, everything built on it is shaky.
 
-## Reltio Data Cloud
+### Three kinds of data
 
-Reltio Data Cloud unifies, governs, secures, and delivers trusted data at enterprise scale. The capabilities below all sit on that platform.
+| Building block | What it is | Examples |
+|----------------|------------|----------|
+| **Entities** | People, organizations, places, and things | Customer, supplier, product, location |
+| **Relationships** | How entities connect | Contact who works at a company; product on an account |
+| **Interactions** | What actually happened | Purchase, service call, claim |
+
+Most organizations can see pieces of this in individual applications. Few have the full connected picture. That connected picture is what the platform is built to create.
 
 ### Integrating data: get it in, get it out
 
