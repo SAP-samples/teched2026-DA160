@@ -31,7 +31,7 @@ Human **Not a Match** outranks the engine. If you mark two profiles Not a Match,
 
 Then pick **one** path:
 
-**Training-dataset path:** If the instructor confirmed the training dataset is on this tenant, search for **Fluor Enterprises**.
+**Training-dataset path:** If the instructor confirmed the training dataset is on this tenant, search for **Pacific Rim Packaging**.
 
 **Load-only path:** If the tenant only has data from Exercise 1, pick any organization that shows potential matches from your load (or from seed data already on the tenant).
 
@@ -54,20 +54,20 @@ On a comparison column, hover over the profile name and use the actions at the t
 > [!WARNING]
 > **Merge** and **Not a Match** at the top of the table apply to **all** profiles on the page. For this workshop, act on **one pair at a time**.
 
-### Training-dataset path (Fluor)
+### Training-dataset path (Pacific Rim Packaging)
 
-The bootcamp challenge: **Fluor Enterprises, Inc.** starts related to four other profiles (five profiles in total):
+The bootcamp challenge: **Pacific Rim Packaging** starts related to three other profiles (four profiles in total):
 
-- 2 named Fluor Enterprises, Inc.
-- 2 named Fluor Intercontinental, Inc.
-- 1 named Fluor International, Inc.
+- 1 named Pacific Rim Packaging Co
+- 1 named PACIFIC RIM PACKAGING
+- 1 named Pacific Rim Packaging Incorporated
+- 1 named Pacific Rim Packaging LLC
 
 **Goal:** end with **three** profiles — one for each legal name — and those three marked **Not a Match** with each other.
 
-1. **Merge** the two Fluor Enterprises profiles into one.
-2. **Merge** the two Fluor Intercontinental profiles into one.
-3. Leave Fluor International as its own profile.
-4. Between the three remaining profiles, mark each pair **Not a Match**.
+1. **Merge** two Pacific Rim Packaging profiles into one.
+3. Leave one as its own profile.
+4. Mark one pair **Not a Match**.
 
 If you merge the wrong pair, **unmerge** on the surviving profile and retry. Unmerge is expected; it also writes Not a Match for that split.
 
