@@ -33,16 +33,16 @@ Build **this** search. Do not skip filters.
 
 1. Keep entity type **Organization**.
 2. Open **Advanced Search** on the left panel.
-3. Add a condition: **Source System Name** `equals` **Finance**.
+3. Add a condition: **Source System Name** `equals` **SAP**.
 4. Add a second condition (combine with **And**): **Name** `contains` **Lab**.
 5. Run the search.
 
-You should get a short list, not the whole tenant.
+You should see **Redwood Data Labs**. That organization is already in the tenant for every participant. The list should be short, not the whole tenant.
 
 > [!NOTE]
 > `equals` is an exact match (not case sensitive). `contains` finds the value as a substring inside the attribute.
 
-If **Finance** / **Lab** returns nothing on your tenant, tell a helper. The instructor will give a fallback (for example **Name** `contains` a string from `SAP_Org.csv` or from the organizations already on the tenant).
+If you do not see **Redwood Data Labs**, check that the entity type is still **Organization**, the source is **SAP**, and **Name** `contains` **Lab**. Then tell a helper.
 
 ## Exercise 2.3 — Read a profile
 
