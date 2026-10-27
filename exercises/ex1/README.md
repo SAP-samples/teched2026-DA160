@@ -1,15 +1,15 @@
-# Exercise 1 — Load contacts with Console Data Loader (20 min)
+# Exercise 1 — Load Organizations with Console Data Loader (20 min)
 
 SAP TechEd 2026, Hands-On Workshop: DA160
 
 **Hands-on**
 
-In this exercise you ingest a CSV of contacts into your workshop tenant using **Data Loader** in Console. You complete the same four stages the product uses for every file load: **Upload**, **Map**, **Define**, **Review**.
+In this exercise you ingest a CSV of organizations into your workshop tenant using **Data Loader** in Console. You complete the same four stages the product uses for every file load: **Upload**, **Map**, **Define**, **Review**.
 
 If you have not signed in yet, complete [Getting Started](../ex0/README.md) first.
 
 > [!NOTE]
-> The instructor announces the folder that contains `SAP_Contact.csv` and `Load_Mappings_Ops.xlsx`. Use those files. Do not invent a spreadsheet.
+> The instructor announces the folder that contains `SAP_Org.csv` and `Load_Mappings_Ops.xlsx`. Use those files. Do not invent a spreadsheet.
 
 ## What you will do
 
@@ -37,12 +37,12 @@ You are now on the entity data-load page. The wizard is **Upload** → **Map** �
 On the **Upload** section, fill in the following details, then select **CONTINUE**:
 
 1. In **Job definition Name**, enter a name you can find later. Use your desk number, for example `DeskNN-SAP-Contact`.
-2. In **Entity type**, select **Contact**.
+2. In **Entity type**, select **Organization**.
 3. Leave the source as **My Computer** (the default).
 4. For file type, select **CSV**.
 5. Select the **First row is a header** checkbox.
 6. For the delimiter, select **Comma (,)**.
-7. Select **BROWSE FILE** and choose **`SAP_Contact.csv`** from the workshop data folder.
+7. Select **BROWSE FILE** and choose **`SAP_Org.csv`** from the workshop data folder.
 8. Confirm the file preview looks like contact rows (names, source identifiers), not a mapping spreadsheet.
 9. Select **CONTINUE**.
 
@@ -84,20 +84,11 @@ On the **Review** page you should see file details, a mapping summary, and job i
 > [!WARNING]
 > If the job fails, do not re-run blindly. Check mapping and crosswalk / source type first, then ask a floor helper. A second load with a bad mapping can create extra profiles.
 
-## If you finish early
-
-**Optional:** Load **`SAP_Org.csv`** with the same four stages:
-
-- Entity type: **Organization**
-- Record update preference: **Partial Update**
-- Mapping: still **`Load_Mappings_Ops.xlsx`**
-- Job name example: `DeskNN-SAP-Org`
-
 ## Summary
 
 You should have:
 
-- A completed Data Loader job for `SAP_Contact.csv`
+- A completed Data Loader job for `SAP_Org.csv`
 - Contact profiles you can find in Hub Search (Exercise 2)
 
 Continue to [Exercise 2 — Search in Hub](../ex2/README.md).
