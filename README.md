@@ -1,5 +1,8 @@
 # Containing Files
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2026-DA160)](https://api.reuse.software/info/github.com/SAP-samples/teched2026-DA160)
+
+
 1. The LICENSE file:
 In most cases, the license for SAP sample projects is `Apache 2.0`.
 
